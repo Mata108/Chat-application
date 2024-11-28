@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h1 class="title">Hello Ji</h1>
+      <div class="main">
+            <div class="name">
+                  <span><i class="fa-solid fa-user"></i></span>
+                  <input type="text" name="name" class="name-input" id="name-input" value="anoyamous">
+            </div>
+            <div >
+                  <ul class="message-container" id="message-container" >
+                       
+                  </ul>
+
+             
+            </div>
+            <form action="" id="message-form" class="message-form" >
+                  <input type="text" name="message" id="message-input" class="message-input"  >
+                  <div class="v-divider"></div>
+                  <button class="send-button">send 
+                   <span><i class="fa-solid fa-paper-plane"></i></span>
+                  </button>
+             </form>
+      </div>
+      <h3 class="client-total" id="client-total">Total Clients 2</h3>
+      
+      <script src="/socket.io/socket.io.js"></script> 
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.28.0/moment.min.js"
+      integrity="sha512-Q1f3TS3vSt1jQ8AwP2OuenztnLU6LwxgyyYOG1jgMW/cbEMHps/3wjvnl1P3WTrF3chJUWEoxDUEjMxDV8pujg=="
+      crossorigin="anonymous"
+    ></script>
+      <script src="main.js"></script>
+</body>
+</html>
